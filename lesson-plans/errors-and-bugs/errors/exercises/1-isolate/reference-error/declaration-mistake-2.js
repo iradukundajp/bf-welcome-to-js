@@ -3,25 +3,25 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: ferenceError
+  message: Cannot assign to undeclared variable 'isValidUserName'
 
-  location:
+  location: line 24
 
-  life cycle:
+  life cycle: Execution phase
 
-  the mistake:
+  the mistake: The variable 'isValidUserName' is assigned a value without being declared.
 
-  the fix(es):
+  the fix(es): Declare the variable 'isValidUserName' using let before assigning a value to it.
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
-  isValidUserName = true;
+  let isValidUserName = true;
 }
 
 let isValidUserName;
@@ -31,3 +31,5 @@ if (userName.length <= 3) {
 }
 
 console.log('isValidUserName:', typeof isValidUserName, isValidUserName);
+
+

@@ -3,20 +3,19 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+ environment:chrome 
+  name: ferenceError
+  message: Cannot access 'tomatoes' before initialization
+  
+  location: line 19
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: Accessing the variable 'tomatoes' before it is initialized.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Declare the variable 'tomatoes' using  'let' or 'const' before accessing it.
 */
-
+let tomatoes = 'fresh';
 console.log(tomatoes);
 
-let tomatoes = 'fresh';
+

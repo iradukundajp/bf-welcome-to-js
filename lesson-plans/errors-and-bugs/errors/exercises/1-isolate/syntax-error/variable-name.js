@@ -7,21 +7,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome 
+  name: SyntaxError: 
+  message: Unexpected number
+  
+  location: line 24
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: Using a number as  a variable.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): remane the variable 3  with a good type, for example 'three '.
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

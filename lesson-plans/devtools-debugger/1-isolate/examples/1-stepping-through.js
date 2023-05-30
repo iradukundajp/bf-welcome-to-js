@@ -13,9 +13,9 @@
 
 */
 
-let didClickOk = confirm('please click "ok":');
+let didClickOk = confirm('please click "ok":'); // didClickOk is undefined
 
-if (didClickOk !== true) {
+if (didClickOk !== true) { 
   alert(':(');
 } else {
   alert('thank you!');

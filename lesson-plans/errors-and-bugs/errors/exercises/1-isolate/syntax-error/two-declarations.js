@@ -4,19 +4,18 @@ console.log('--- in execution phase ---');
 
 /*
   environment:
+  name: SyntaxError: 
+  message: Identifier 'tree' has already been declared
+  
+  location: line 21
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: Declaring the variable 'tree' twice.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Remove the duplicate declaration of 'tree' to avoid redeclaring it twice by renaming with different names.
 */
 
-let tree = 'oak';
+let tree1 = 'oak';
 
-let tree = 'birch';
+let tree2 = 'birch';

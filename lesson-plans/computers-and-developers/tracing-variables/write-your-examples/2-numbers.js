@@ -12,9 +12,12 @@ let birthYear = 1998 ;
 // declare variable birthYear and initialize it to the value 2023.
 let currentYear = 2023 ;
 
+// read variable currentYear 
+// read variable birthYear 
 // declare variable birthYear and initialize it to the value currentYear - birthYear.
 let age = currentYear - birthYear ;
 
+// read variable age 
 // declare variable message  and initialize it.
 let message = `
 You are ${age} years old.`;

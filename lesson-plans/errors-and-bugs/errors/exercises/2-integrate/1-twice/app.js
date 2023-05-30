@@ -8,16 +8,16 @@ import {
 /*
   environment:
 
-  name:
-  message:
+  name: SyntaxError: 
+  message: unexpected token '+' 
 
-  location:
+  location: line 32
 
-  life cycle:
+  life cycle: Creation error
 
-  the mistake:
+  the mistake: Incorrect syntax in the variable declaration of 'repeated'.
 
-  the fix(es):
+  the fix(es): replace the '+' operator with the '=' operator 
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

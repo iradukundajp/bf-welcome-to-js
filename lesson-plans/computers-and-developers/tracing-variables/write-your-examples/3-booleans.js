@@ -11,8 +11,8 @@ declared, initialized, read , reassigned,...
 let isRaining = true ; 
 
 if (isRaining) {
-  console.log('It is raining, please bring your umbrella!');
+  console.log('It is raining, Please bring your umbrella!');
 } else {
-  console.log("Good for you, it is not raining");
+  console.log("Good for you!, it is not raining");
 }
 

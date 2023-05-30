@@ -11,3 +11,13 @@ TODO: explain what comments are
 */
 
 // this is an inline comment
+
+/*
+This is a block comment.
+It can go multiple lines.
+*/
+
+
+// This is an inline comment
+let  x = 10; // Inline comment explains the purpose of the variable
+
