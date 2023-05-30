@@ -7,20 +7,19 @@ console.log('--- in execution phase ---');
 
 /*
   environment:
+  name: SyntaxError
+  message: valid or unexpected token
+  
+  location: line 22
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: The string assigned to the 'a' variable contains a line break without using the appropriate syntax.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Use a backslash (\) at the end of the first line.
 */
 
-const a = 'this is
+const a = 'this is \
 two lines';
 
 

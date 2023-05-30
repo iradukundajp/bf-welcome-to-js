@@ -6,25 +6,24 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome
+  name: syntaxError: 
+  message: Unexpected token '{'
+  
+  location: line 26
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: Incorrect syntax in the 'else' statement.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Use 'else if' instead of 'else' to add multiple conditions and add a opening tag '{' to it .
 */
 
 let userName = 'indrogo';
 
 if (userName.length < 3) {
   console.log('too short');
-} else (userName.length < 5) {
+} else if (userName.length < 5) {
   console.log('just right');
 } else {
   console.log('too long');

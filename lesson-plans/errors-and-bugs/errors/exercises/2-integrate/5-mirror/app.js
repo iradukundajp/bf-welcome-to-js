@@ -5,22 +5,22 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected identifier
+  
+  location: line 23
 
-  location:
+  life cycle: Execution phase
 
-  life cycle:
+  the mistake: console.log statement is missing quotes around the string.
 
-  the mistake:
-
-  the fix(es):
+  the fix(es): Add quotes around the string in the console.log.
 */
 
 whenFormDataChanges('input', () => {
-  console.log(--- form data changed ---);
+  console.log('--- form data changed ---');
 
   // --- read the user's input ---
 

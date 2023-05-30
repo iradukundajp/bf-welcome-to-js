@@ -5,18 +5,17 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
+  name: ReferenceError
+  message:  DisplayString is not defined
+  
+  location: line 45
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: The function name `DisplayString` start with capital letter.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Change `DisplayString` to `displayString` to make the correct function name.
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +42,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

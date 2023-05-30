@@ -6,20 +6,19 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome 
+  name: SyntaxError: 
+  message: Unexpected string
 
-  name:
-  message:
+  location: 22
 
-  location:
+  life cycle: execution phase
 
-  life cycle:
+  the mistake: incorrect quotes in the string assignment.
 
-  the mistake:
-
-  the fix(es):
+  the fix(es): skip  the inner single quotes using backslashes (\).
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself \' i can do this! \' at least once a day';
 
-
+console.log(quotesInQuotes);

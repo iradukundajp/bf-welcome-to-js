@@ -3,20 +3,24 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: Reference error 
+  message: Cannot assign to undeclared variable 'welf'
 
-  location:
+  location: line 20
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: The variable 'welf' is assigned a value without being declared.
 
-  the fix(es):
+  the fix(es): Declare the variable 'welf' using let before assigning a value to it.
 */
 
-welf = 'ingrad';
+let welf = 'ingrad';
 
 console.log(welf);
+
+
+
+

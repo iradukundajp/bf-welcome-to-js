@@ -13,13 +13,18 @@ let name = 'John Paul ';
 // declare a variable city and initialise to it value 'Antwerp'
 let city = 'Antwerp';  
 
+// read variable name 
+// read variable city
 // declare a variable name and initialise to it value name name + 'from ' + city 
 let adress = name + 'from ' + city ; 
 // read variable adress
 console.log(adress); 
 
+// read variable  name 
+// read variable city 
 // declare variable message  and initialize it
 let message = `
 Hello my name is ${name} and I am from ${city}`;
+
 // read variable message
 console.log(message); 

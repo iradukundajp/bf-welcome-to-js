@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 /*
   environment:
+  name: SyntaxError
+  message: invalid left-hand side in assignment
+  
+  location: line 25
 
-  name:
-  message:
+  life cycle: Execution phase
 
-  location:
+  the mistake: trying to assign a value to the  a boolean 'true' is not allowed.
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): Assign the value of 'isHappy' to a different variable.
 */
+
 
 let isHappy = false;
 
-true = isHappy;
+let Paul = isHappy;
 
 
