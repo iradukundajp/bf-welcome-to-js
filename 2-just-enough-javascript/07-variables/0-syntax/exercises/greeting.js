@@ -1,7 +1,7 @@
 // #todo
 
 // prettier-ignore
-{ // so prettier does not remove the extra spacing
+// so prettier does not remove the extra spacing
 
 
 'use strict';
@@ -19,4 +19,4 @@ greeting = 'good bye ' + firstName + '.';
 console.log(greeting);
 
 
-}
+
