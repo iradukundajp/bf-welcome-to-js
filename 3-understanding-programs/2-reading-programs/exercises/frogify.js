@@ -21,17 +21,18 @@ let frogged = '';
 for (const character of toBeFrogged) {
   /* -- append to new string
     - can you think of a way to combine these two conditionals?
+     => yes, i can use += sign
   -- */
 
   if (character === 'f') {
-    frogged = frogged + 'frog';
+    frogged += 'frog';
     continue;
   }
   if (character === 'F') {
-    frogged = frogged + 'FROG';
+    frogged += 'FROG';
     continue;
   }
-  frogged = frogged + character;
+  frogged += character;
 }
 
 /* -- communicate the new string -- */

@@ -6,9 +6,96 @@
 
   try predicting how this game works just by reading the code
     how many prompts are there?
+     => There are 4 prompts in the code
     how many choices does each user have?
+     =>Each user has multiple choices throughout the game:
+     The initial prompt offers three choices: "play", "-h" (for instructions), or escape (to exit the game).
+      - Player 1 has the choice to enter a secret phrase or exit the game.
+      - Player 1 has the choice to enter a clue or exit the game.
+      - Player 2 has the choice to guess the secret phrase or exit the game.
+      - Player 2 has the choice to reveal the secret or not.
     how many paths are there total?
+    => There are several paths based on user input and different conditions:
+
+      - If the user inputs "-h", the game displays instructions.
+      - If the user inputs "play", the game proceeds with the gameplay.
+      - If any user chooses to exit the game, it terminates.
+      - If Player 2 guesses the correct secret phrase, Player 2 wins.
+      - If Player 2 guesses incorrectly, Player 1 wins.
+      - If Player 2 chooses to reveal the secret, the game displays the secret phrase.
     how would you draw a diagram of this game?
+
+                    +-------+
+                | Start |
+                +-------+
+                    |
+  +-----------------+------------------+
+  |                Prompt               |
+  +-----------------+------------------+
+                    |
+ +------------------+------------------+
+ |              userInput              |
+ +------------------+------------------+
+                    |
+     +---------+----+----+---------+
+     |   "-h"  | "play" |  escape  |
+     +---------+--------+----------+
+                    |
+       +-----------+--------------+
+       |        Display           |
+       |      Instructions        |
+       +-----------+--------------+
+                    |
+   +--------------+-----------------+
+   |   Player 1   |   Exit Game     |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 1   |   Exit Game     |
+   |   Enter      |                 |
+   | Secret Phrase|                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 1   |   Exit Game     |
+   |   Enter      |                 |
+   |    Clue      |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 1   |   Exit Game     |
+   |   Turn Over  |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 2   |   Exit Game     |
+   |   Guess      |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 2   |   Exit Game     |
+   |   Correct    |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 1   |   Exit Game     |
+   |    Win       |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Player 2   |   Exit Game     |
+   |  Reveal      |                 |
+   |  Secret      |                 |
+   +--------------+-----------------+
+                    |
+   +--------------+-----------------+
+   |   Game Over  |                 |
+   |  Display     |                 |
+   |  Winner      |                 |
+   +--------------+-----------------+
+                    |
+                +
+
 
 */
 
