@@ -1,12 +1,10 @@
-// #todo
-
 'use strict';
 
 // let number = -1;
 // let number = 0;
 // let number = 0.5;
 // let number = 1;
-let number = 1.5;
+let number = 3;
 // let number = 2;
 // let number = 2.5;
 // let number = 3;

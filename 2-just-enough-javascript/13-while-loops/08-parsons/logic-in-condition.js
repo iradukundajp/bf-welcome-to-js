@@ -8,8 +8,6 @@
 
 */
 
-
-
 let userInput = '';
 
 while (userInput === null || userInput === '') {
@@ -17,13 +15,3 @@ while (userInput === null || userInput === '') {
 }
 
 alert(userInput);
-
-
-// begin distractors
-
-while (userInput === null && userInput === '') { // distractor
-while (userInput !== null && userInput !== '') { // distractor
-while (userInput !== null || userInput !== '') { // distractor
-
-
-// #todo

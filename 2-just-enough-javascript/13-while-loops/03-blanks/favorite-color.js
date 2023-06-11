@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let message = 'your favorite color is ';
@@ -19,11 +17,3 @@ while (isEmpty) {
 }
 
 alert(message);
-
-/* distractors:
-
-
-    While
-
-
-*/

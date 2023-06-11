@@ -1,8 +1,6 @@
-// #todo
-
 'use strict';
-
-let word = '';
+let input = prompt('Please Enter something');
+let word = input;
 // let word = 'a';
 // let word = 'be';
 // let word = 'eat';
@@ -17,12 +15,11 @@ let word = '';
 let message;
 if (word.length >= 3) {
   if (word.includes('ear')) {
-    message = 'eary word!';
+    message = alert('eary word!');
   } else {
-    message = 'not eary :(';
+    message = alert('not eary :(');
   }
 } else {
-  message = 'word is too short';
+  message = alert('word is too short');
 }
 
-console.log(message);

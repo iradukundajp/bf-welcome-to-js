@@ -3,18 +3,17 @@
 'use strict';
 
 /*
-  _a:
-    declaration:
-      init:
-      types:
-      scopes:
-    reads:
-      scopes:
-      checks:
-    assignments:
-      types:
-      scopes:
-
+    _a:
+    - declaration: Done
+      - init: Done
+      - types: Done
+      - scopes: Done
+    - reads: Done
+      - scopes: Done
+      - checks: Done
+    - assignments: Done
+      - types: Done
+      - scopes: Done
 
 */
 

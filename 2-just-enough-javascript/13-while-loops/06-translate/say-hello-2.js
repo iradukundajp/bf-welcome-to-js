@@ -30,3 +30,14 @@
 /* ---   ?   --- */
 
 // alert(message)
+let input = null;
+while (input === null) {
+  input = prompt('Say hello');
+}
+let message = '';
+if (input === 'hello') {
+  message = 'Hello to you too!';
+} else {
+  message = 'Good bye';
+}
+alert(message);

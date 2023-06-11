@@ -8,7 +8,7 @@
 
 */
 
-let weather = 'spring';
+let weather = 'fall';
 // let weather = "summer";
 // let weather = "winter";
 // let weather = "fall";

@@ -1,14 +1,12 @@
-// #todo
-
 'use strict';
 
 let greeting = 'hello';
 
-{
-  let greeting = 'hello';
-  greeting = 'bye';
-  console.log(greeting);
-}
+greeting = 'bye';
+
+greeting = 'hello';
+
+console.log(greeting);
 
 console.log(greeting === 'hello'); // true
 
