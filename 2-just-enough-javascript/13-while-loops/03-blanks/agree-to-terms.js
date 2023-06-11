@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let loggedIn = false;
@@ -14,9 +12,3 @@ while (!loggedIn) {
 }
 
 alert('welcome to social media!');
-
-/* distractors:
-
-    prompt
-
-*/

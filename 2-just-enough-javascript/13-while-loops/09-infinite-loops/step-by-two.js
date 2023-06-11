@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let x = 0;
@@ -10,3 +8,4 @@ while (x !== 9) {
 }
 
 console.log('all done.');
+

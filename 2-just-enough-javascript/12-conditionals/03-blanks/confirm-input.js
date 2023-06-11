@@ -1,4 +1,3 @@
-// #todo
 
 'use strict';
 
@@ -16,12 +15,4 @@ if (input !== null) {
 
 alert(response);
 
-/* distractors:
 
-
-    True
-
-    Null
-
-
-*/

@@ -20,3 +20,8 @@
 // :END WHILE
 
 // alert('hello to you too!')
+let input = '';
+while (input !== 'hello') {
+  input = prompt('Say hello');
+}
+alert('Hello to you too!');

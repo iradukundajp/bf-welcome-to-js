@@ -22,10 +22,3 @@ if (input === '') {
 } else {
   alert('your input: ' + input);
 }
-
-// --- distractors ---
-
-
-while input === null { // distractor
-if (input === '')  // distractor
-LET input = null;

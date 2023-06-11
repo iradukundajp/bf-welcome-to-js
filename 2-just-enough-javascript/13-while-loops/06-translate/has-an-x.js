@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Has an "x"
@@ -31,3 +29,14 @@
 /* ---  ?  --- */
 
 // alert(message)
+let input = null;
+while (input === null) {
+  input = prompt('enter something, the program will check if it has an "x"');
+}
+let message = input;
+if (input.includes('x')) {
+  message += ' has at least one "x"';
+} else {
+  message += ' does not have a single "x"';
+}
+alert(message);

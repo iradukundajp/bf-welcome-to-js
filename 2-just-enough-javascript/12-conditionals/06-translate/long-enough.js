@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 /*
 
@@ -35,3 +33,18 @@
 /* ---   ?   --- */
 
 // alert(message)
+let input = prompt('enter anyhing longer than 5 characters');
+let message;
+if (input !== null) {
+  if (input.length < 5) {
+    message = 'too short';
+  } else if (input.length > 5) {
+    message = 'too long';
+  } else if (input.length === 5) {
+    message = 'exactly 5';
+  }
+} else {
+  message = 'you canceled :(';
+}
+
+alert(message);

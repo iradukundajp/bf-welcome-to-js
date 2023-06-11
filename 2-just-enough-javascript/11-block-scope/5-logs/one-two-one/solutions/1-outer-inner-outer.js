@@ -1,10 +1,10 @@
 'use strict';
 
-__;
+let a = 'car';
 console.log(a);
 
 {
-  __;
+  let a = 'toyota';
   console.log(a);
 }
 

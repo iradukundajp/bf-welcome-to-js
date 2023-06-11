@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -37,18 +35,26 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let text = prompt(_);
+let text = prompt('Enter first value');
 console.log('text:', text);
 
-let query = prompt(_);
+let query = prompt('Enter second value');
 console.log('query:', query);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
-
+if (text === null || query === null) {
+  output = ':(';
+} else if (text === null || query === null) {
+  output = ':(';
+} else if (text.toLowerCase().includes(query.toLowerCase())) {
+  output = `"${text}" does include "${query}"`;
+} else {
+  output = `"${text}" does not include "${query}"`;
+}
 /* --- alert the result --- */
 
 console.log('output:', output);

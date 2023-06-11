@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -37,3 +35,16 @@
 /* ---   ?   --- */
 
 // alert(message)
+
+let input = prompt('do whatever you want ');
+let message = 'Your input  is ';
+let maybeNot = '';
+if (input === null) {
+  message = message + 'null';
+} else if (input.length !== 0) {
+  maybeNot = 'not ';
+  message = message + maybeNot + 'empty';
+} else {
+  message = message + maybeNot + 'empty';
+}
+alert(message);

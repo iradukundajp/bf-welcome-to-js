@@ -1,16 +1,14 @@
-// #todo
-
 'use strict';
 
 /*
 
+  Data In: any text
 
-  Data In:
-
-  Data Out:
+  Data Out: the flipped text
 
   Test Cases:
-
+  'test' -> 'etts'
+  'JavaScript' -> 'aJavcSirtp'
 */
 
 /* ---   ?   --- */
@@ -45,3 +43,27 @@
 /* ---   ?   --- */
 
 // alert(flipFlopped)
+
+let normalPhrase = null;
+
+while (normalPhrase === null) {
+  normalPhrase = prompt('enter something to flipflop');
+}
+
+let previous = '';
+let flipFlopped = '';
+
+for (const current of normalPhrase) {
+  if (previous !== '') {
+    flipFlopped += current + previous;
+    previous = '';
+  } else {
+    previous = current;
+  }
+}
+
+if (flipFlopped.length < normalPhrase.length) {
+  flipFlopped += normalPhrase[normalPhrase.length - 1];
+}
+
+alert(flipFlopped);

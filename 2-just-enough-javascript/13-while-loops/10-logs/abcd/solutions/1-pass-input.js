@@ -3,5 +3,12 @@
 let input = '';
 while (input !== null) {
   input = prompt('a, b, c, d');
-  console.log(input);
+
+  if (input) {
+    const newInput = input.split(',');
+    for (const char of newInput) {
+      console.log("'" + char + "'");
+    }
+  }
+  break;
 }
